@@ -1,0 +1,252 @@
+.executiveBiosContainer .ui-dialog-titlebar {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    top: 15px;
+    right: 15px;
+}
+.executiveBiosContainer {
+    background-color: #bbd3de;
+    background: -moz-linear-gradient(137deg, transparent 80px, rgba(187, 211, 222, 1) 0pt) no-repeat scroll right bottom transparent;
+    background: -webkit-gradient(137deg, transparent 80px, rgba(187, 211, 222, 1) 0pt) no-repeat scroll right bottom transparent;
+    background: -webkit-linear-gradient(137deg, transparent 80px, rgba(187, 211, 222, 1) 0pt) no-repeat scroll right bottom transparent;
+    background: -o-linear-gradient(137deg, transparent 80px, rgba(187, 211, 222, 1) 0pt) no-repeat scroll right bottom transparent;
+    background: -ms-linear-gradient(137deg, transparent 80px, rgba(187, 211, 222, 1) 0pt) no-repeat scroll right bottom transparent;
+    background: linear-gradient(-43deg, transparent 80px, rgba(187, 211, 222, 1) 0pt) no-repeat scroll right bottom transparent;
+    border: none;
+    padding: 15px;
+    overflow: hidden;
+    /*border: solid 1px blue;*/
+    padding: 0;
+}
+.no-cssgradients .executiveBiosContainer  {
+    background: url(../../../assets1.dxc.technology/investor_relations/images/largeCornerBG.gif) #bbd3de no-repeat scroll right bottom;
+}
+.executiveBiosContainer .dialog {
+    margin-right: 40px;
+    overflow: hidden;
+    /*border: solid 1px green;*/
+}
+
+.executiveBios h3 {
+    text-transform: none;
+}
+
+.no-cssgradients .channel {
+    /*	background: url(//assets1.dxc.technology/application_services/images/back.png) #ededed no-repeat scroll right bottom;*/
+}
+
+.channel ul.list {
+    margin-top: 15;
+}
+.channel ul li {
+    padding: 0;
+    margin: 0;
+    background: none !important;
+}
+.channel ul.list li {
+    margin-bottom: 1em;
+}
+
+.biosdetail {
+    margin: 4%;
+}
+.executiveBiosContainer .dialog .imagethumb {
+    width: 150px;
+    float: left;
+    min-height: 125px;
+    background: #333;
+}
+.executiveBiosContainer .dialog .imagethumb .img {
+    margin-right: 15px;
+}
+.executiveBiosContainer .dialog .detail {
+    width: 65%;
+    float: right;
+}
+
+@media screen and (min-width:750px){
+
+    .channel ul {
+        width: 65%;
+        margin-right: 20px;
+    }
+    .channel ul.list {
+        width: 25%;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:750px){
+
+}
+/**START LEADERSHIP PAGE**/
+.leadership-page {
+    color: #000;
+}
+
+.leadership-page__subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "GTWalsheimProBold", Arial, sans-serif;
+    margin-bottom: 9px;
+    text-transform: capitalize;
+    line-height: 1.22;
+}
+
+.leadership-page__header-label {
+    font-size: 20px;
+    margin-bottom: 27px;
+    text-transform: uppercase;
+    display: none;
+}
+
+.leadership-page .team-list-tile {
+    font-size: 26px;
+    padding: 36px 0;
+    font-weight: 700;
+    font-family: "GTWalsheimProBold", Arial, sans-serif;
+    line-height: 1.29;
+}
+
+.leadership-page .team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#mainContent .leadership-page .team-list {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.leadership-page .team-list__item {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.leadership-page .team-list__left-content {
+    margin-bottom: 10px;
+}
+
+.leadership-page .team-list__left-content img {
+    max-height: 290px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    width: 80%;
+}
+
+.leadership-page .team-list__right-content {
+    padding-right: 0;
+    line-height: 1.38;
+    font-size: 16px;
+}
+
+.leadership-page .team-list__name {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "GTWalsheimProBold", Arial, sans-serif;
+    display: block;
+    line-height: 1.25;
+    color: #ffed00;
+    text-decoration: underline;
+    margin-bottom: 4px;
+}
+
+.leadership-page .team-list__name-span {
+    color: #000;
+}
+
+.leadership-page .board-directors__title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "GTWalsheimProBold", Arial, sans-serif;
+    padding: 36px 0 25px 0;
+    text-transform: none;
+    border-top: 1px #000 solid;
+    line-height: 32px;
+}
+
+.leadership-page .board-directors__text {
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+
+.leadership-page .board-directors__link {
+    padding: 0 0 26px 40px;
+    font-size: 18px;
+    line-height: 30px;
+    position: relative;
+    display: block;
+    font-family: "GTWalsheimProBold", Arial, sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+.leadership-page .board-directors__link:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #000;
+    position: relative;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+.leadership-page .board-directors__link:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6.5px 0 6.5px 11px;
+    border-color: transparent transparent transparent #ffed00;
+    position: absolute;
+    left: 11px;
+    top: 9px;
+}
+
+@media (min-width: 768px) {
+    .leadership-page__subtitle {
+        font-size: 34px;
+        padding-right: 60px;
+    }
+    .leadership-page .team-list-tile {
+        font-size: 34px;
+    }
+    .leadership-page .team-list__item {
+        width: 50%;
+        margin-bottom: 60px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        text-align: left;
+    }
+    .leadership-page .team-list__right-content {
+        padding-right: 40px;
+        width: 50%;
+    }
+    .leadership-page .team-list__left-content {
+        width: 43%;
+        margin-right: 5%;
+        margin-bottom: 0;
+    }
+    .leadership-page .team-list__left-content img {
+        max-height: 218px;
+        width: 100%;
+    }
+}
+
+.sectionBlock .leadership-page span strong a {
+    color: #000;
+}
+
+/**END LEADERSHIP PAGE**/

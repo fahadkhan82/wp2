@@ -1,0 +1,254 @@
+body{
+}
+#contactUs img{
+	display:block;
+}
+
+#contactUs h3{
+	color:#005172;
+}
+
+#contactUs ul{
+	margin-bottom:23px;
+}
+
+.countryColumns{
+	float:left;
+	width:100%;
+}
+.column{
+	float:left;
+	width:100%;
+	padding: 20px;
+	padding-bottom:0px;
+}
+.countryColumns .column{
+	width:100%;
+}
+.columnHeadquarters{
+	float:left;
+}
+.columnBar{
+	
+}
+#main_generic_contact{
+	width: 100%;
+}
+#contactForm{
+	position: relative;
+	color:#747678;
+	margin-right:10px;
+	background: #ececed;
+	width:92%;
+	padding: 4% 4%;
+	background-repeat:no-repeat;
+}
+.no-cssgradients #contactForm{
+	background: transparent url(../../assets/new/innerNavGrayNotch.png) no-repeat 100% 0;
+	padding-bottom: 10px;
+}
+.no-cssgradients #contactForm:after{
+	content: ' ';
+	background: transparent url(../../assets/new/innerNavGrayNotch.png) no-repeat 0 100%;
+	position: absolute;
+	bottom: -20px;
+	left: 0;right: 0;
+	height: 20px;
+}
+#contactForm div{
+	margin-bottom:9px;
+}
+
+#contactForm strong{
+	text-transform:uppercase;
+}
+
+#contactForm input, #contactForm select{
+	border: 1px solid #999;
+	width: 100%;
+}
+
+#contactForm input[type=submit]{
+	padding:0;
+	margin:0;
+	background-color:#989c9f;
+	color:#fff;
+	border:0 none;
+	text-transform:uppercase;
+	width:77px;
+	height:24px;
+}
+
+#contactForm textarea{
+	width:100%;
+	resize:none;
+}
+
+#contactForm .formSubmit{
+	text-align:right;
+}
+
+.mobileColumn{
+	float:left;
+	width: 45%;
+}
+.mobileOnly{
+	display:block;
+}
+.desktopOnly{
+	display: none;
+}
+
+#contactForm .invalid{
+	border: 1px solid #f00;
+}
+#contactForm select.invalid{
+	*background-color: #f99;
+	*color: #000;
+}
+
+.columnMain {
+	float: left;
+}
+.list1, .list2 { }
+
+@media screen and (min-width:450px){
+	.countryColumns .column{
+		width:40%;
+	}
+	.list1, .list2 {
+		width: 40%;
+	}
+}
+
+
+@media screen and (min-width:600px){	
+	.column{
+		width:50%;
+	}
+	.countryColumns{
+		float:left;
+		width:50%;
+	}
+	.countryColumns .column{
+		width:100%;
+	}
+	#contactForm{
+		padding:30px 23px;
+		width:168px;
+		background:
+			-moz-linear-gradient(45deg,  transparent 10px, #ececed 10px),
+			-moz-linear-gradient(135deg, #ececed 10px, #ececed 10px),
+			-moz-linear-gradient(225deg, transparent 10px, #ececed 10px),
+			-moz-linear-gradient(315deg, #ececed 10px, #ececed 10px);
+		background:
+			-o-linear-gradient(45deg,  transparent 10px, #ececed 10px),
+			-o-linear-gradient(135deg, #ececed 10px, #ececed 10px),
+			-o-linear-gradient(225deg, transparent 10px, #ececed 10px),
+			-o-linear-gradient(315deg, #ececed 10px, #ececed 10px);
+		background:
+			-webkit-linear-gradient(45deg,  transparent 10px, #ececed 10px),
+			-webkit-linear-gradient(135deg, #ececed 10px, #ececed 10px),
+			-webkit-linear-gradient(225deg, transparent 10px, #ececed 10px),
+			-webkit-linear-gradient(315deg, #ececed 10px, #ececed 10px);
+
+		background-position:bottom left, bottom right, top right, top left;
+		-moz-background-size:51% 51%;
+		-webkit-background-size:51% 51%;
+		background-size:51% 51%;
+		background-repeat:no-repeat;
+	}
+	.no-cssgradients #contactForm{
+		background: transparent url(../../assets/new/innerNavGrayNotch.png) no-repeat 100% 0;
+		padding-bottom: 10px;
+	}
+	.no-cssgradients #contactForm:after{
+		content: ' ';
+		background: transparent url(../../assets/new/innerNavGrayNotch.png) no-repeat 0 100%;
+		position: absolute;
+		bottom: -20px;
+		left: 0;right: 0;
+		height: 20px;
+	}
+	#contactForm input, #contactForm input[type=text]{
+		width:166px;
+	}
+	#contactForm textarea{
+		width:166px;
+	}
+	#contactForm div.container,#contactForm select{
+		width:168px;
+	}
+	.columnMain {
+		width: 50%;
+	}
+	.list1, .list2 {
+		width: 100%;
+	}	
+}
+
+@media screen and (min-width:750px){
+	.column{
+		width:168px;
+		padding: 30px 30px 0;
+		
+	}
+	.columnHeadquarters{
+		float:right;
+		background:url(../../../assets1.dxc.technology/contact_us/assets/columnBar.png) no-repeat 0 0;
+		margin-right:8%
+	}
+	
+	.countryColumns{
+		width:25%;
+	}
+	.countryColumns .column{
+		width:168px;
+	}
+	
+	
+	.mobileColumn{
+		float:none;
+		width: auto;
+	}
+	.mobileOnly{
+		display:none;
+	}
+	.desktopOnly{
+		display: block;
+	}
+	.columnMain {
+		width: auto;
+	}
+	.list1, .list2 {
+		clear: both;
+	}	
+}
+
+@media screen and (min-width:1000px){
+	.column{
+		
+	}
+	.columnBar{
+		background:url(../../../assets1.dxc.technology/contact_us/assets/columnBar.png) no-repeat 0 0;
+	}
+	.countryColumns{
+		width:46%;
+	}
+	.list0, .list1, .list2 {
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+	}
+	.list1 {
+		float: left;
+		clear: left;
+	}
+	.list2 {
+		float: none;
+		clear: none;
+	}	
+	.mobile .myRcmds {
+		top: 174px;
+	}
+}

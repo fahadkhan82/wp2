@@ -1,0 +1,40 @@
+table.logosTable
+{
+	background-image:url(../../../assets1.dxc.technology/global_alliances/assets/fadedline.png);
+	background-position: 165px 0;
+	background-repeat:no-repeat;
+	padding-top:30px;
+}
+
+table.logosTable tr.imgRow td
+{
+	text-align:center;
+	padding:0;
+	vertical-align:middle;
+}
+table.logosTable tr.imgRow td.col1
+{
+	width:166px;
+}
+
+table.logosTable tr.imgRow td.col2
+{
+	width:238px;
+}
+table.logosTable tr.imgRow td.col3
+{
+	width:260px;
+}
+table.logosTable tr.linkRow td
+{
+	text-align:center;
+	padding-bottom:50px;
+	
+}
+
+table.logosTable tr.linkRow td a
+{
+	color:#5ea0c2 !important;
+	font-size:10px;
+
+}

@@ -1,0 +1,119 @@
+#myRcmds .contentNode h3 a {
+    background: url("../../assets/new/triangle-white.png") no-repeat scroll 2px 4px transparent;
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    padding: 0 0 0 20px;
+}
+
+.oldie #myRcmds .contentNode h3 a {
+    background: url("../../assets/new/triangle-white.png") no-repeat scroll 2px 4px transparent;
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    padding: 0 0 0 20px;
+}
+
+/* Gigya Follow Bar Buttons */
+#socialBucket a.gig-followbar-providerButton, #globalNav li div#gigyaFollowAboutUs a.gig-followbar-providerButton, .socialBar a.youtube, #contactUsGigya li a.gig-followbar-providerButton, #contactUsGigya a.youtube {
+    margin-right: 8%;
+    width: 20px;
+    height: 22px;
+}
+#socialBucket .gig-followbar-providerButton-img, #gigyaFollowAboutUs .gig-followbar-providerButton-img, #contactUsGigya .gig-followbar-providerButton-img {
+    display: none;
+}
+#globalNav li div#gigyaFollowAboutUs a.gig-followbar-providerButton, #contactUsGigya li a.gig-followbar-providerButton, #globalNav #aboutUsGigya li a.youtube:hover, #contactUsGigya li a.youtube {
+    opacity: 1.0;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+#socialBucket .facebook, #globalNav li div#gigyaFollowAboutUs a.facebook, #globalNav #contactUsGigya li a.facebook {
+    background: url('../../assets/new/social-media-icons-sprite.png') 0px bottom no-repeat;
+}
+#socialBucket .facebook:hover, #globalNav li div#gigyaFollowAboutUs a.facebook:hover, #globalNav #contactUsGigya li a.facebook:hover {
+    background: url('../../assets/new/social-media-icons-sprite.png') 0px top no-repeat;
+}
+#socialBucket .twitter, #globalNav li div#gigyaFollowAboutUs a.twitter, #globalNav #contactUsGigya li a.twitter {
+    background: url('../../assets/new/social-media-icons-sprite.png') -21px bottom no-repeat;
+}
+#socialBucket .twitter:hover, #globalNav li div#gigyaFollowAboutUs a.twitter:hover, #globalNav #contactUsGigya li a.twitter:hover {
+    background: url('../../assets/new/social-media-icons-sprite.png') -21px top no-repeat;
+}
+#socialBucket .linkedin, #globalNav li div#gigyaFollowAboutUs a.linkedin, #globalNav #contactUsGigya li a.linkedin {
+    background: url('../../assets/new/social-media-icons-sprite.png') -42px bottom no-repeat;
+}
+#socialBucket .linkedin:hover, #globalNav li div#gigyaFollowAboutUs a.linkedin:hover, #globalNav #contactUsGigya li a.linkedin:hover {
+    background: url('../../assets/new/social-media-icons-sprite.png') -42px top no-repeat;
+}
+#socialBucket .rss, #globalNav li div#gigyaFollowAboutUs a.rss, #globalNav #contactUsGigya li a.rss {
+    background: url('../../assets/new/social-media-icons-sprite.png') -63px bottom no-repeat;
+}
+#socialBucket .rss:hover, #globalNav li div#gigyaFollowAboutUs a.rss:hover, #globalNav #contactUsGigya li a.rss:hover {
+    background: url('../../assets/new/social-media-icons-sprite.png') -63px top no-repeat;
+}
+#socialBucket .googleplus, #globalNav li div#gigyaFollowAboutUs a.googleplus, #globalNav #contactUsGigya li a.googleplus {
+    background: url('../../assets/new/social-media-icons-sprite.png') -85px bottom no-repeat;
+}
+#socialBucket .googleplus:hover, #globalNav li div#gigyaFollowAboutUs a.googleplus:hover, #globalNav #contactUsGigya li a.googleplus:hover {
+    background: url('../../assets/new/social-media-icons-sprite.png') -85px top no-repeat;
+}
+#socialBucket .youtube, #globalNav #aboutUsGigya li a.youtube, #globalNav #contactUsGigya li a.youtube {
+    background: url('../../assets/new/social-media-icons-sprite.png') -105px bottom no-repeat;
+}
+#socialBucket .youtube:hover, #globalNav #aboutUsGigya li a.youtube:hover, #globalNav #contactUsGigya li a.youtube:hover {
+    background: url('../../assets/new/social-media-icons-sprite.png') -105px top no-repeat;
+    text-decoration: none;
+}
+
+/* accordion styling */
+#accordion .ui-accordion-header {
+    position: static;
+    background-color: #595959;
+    background-image: none;
+    border: none;
+}
+#accordion .ui-accordion-header span.ui-icon {
+    position: relative;
+    top: 2px;
+    left: 0px;
+    display: inline-block;
+}
+#accordion .ui-accordion-header a {
+    display: inline-block;
+    padding-left: 5px;
+}
+#accordion .ui-accordion-content {
+    border: none;
+    border-top: 1px solid white;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#accordion .ui-accordion-content p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.detailPage .pageContent hr {
+    width: 100%;
+    color: #6AADE4;
+    background-color: #6AADE4;
+    border: #6AADE4;
+}
+.detailPage .pageContent strong {
+    display: block;
+    color: black;
+    font-weight: 700;
+	font-family: "GTWalsheimProBold", Arial, sans-serif;
+}
+
+/* meganav styling */
+#globalNav .subLinks h2 {
+    text-transform:uppercase;
+}
+
+/* update video background styling */
+div.videodialogholder {
+    #background: transparent url('../../assets/new/videoBackground.png') no-repeat right bottom;
+}
