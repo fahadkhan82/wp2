@@ -62,7 +62,7 @@
         </div>
         <!-- Industries -->
         
-        <?php for($l=18;$l<26;$l++){
+        <?php for($l=18;$l<37;$l++){
 			if($l==18){
 				$link	=	get_site_url()."/company-profile/";
 			}elseif($l==20){
