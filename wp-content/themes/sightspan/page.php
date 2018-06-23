@@ -65,13 +65,13 @@
         <?php for($l=18;$l<26;$l++){
 			if($l==18){
 				$link	=	get_site_url()."/company-profile/";
-			}elseif($l==19){
-				$link	=	get_site_url()."/brochures/";
 			}elseif($l==20){
+				$link	=	get_site_url()."/brochures/";
+			}elseif($l==23){
 				$link	=	get_site_url()."/pcareers/";
-			}elseif($l==21){
+			}elseif($l==35){
 				$link	=	get_site_url()."/pleadership/";
-			}elseif($l==22){
+			}elseif($l==36){
 				$link	=	get_site_url()."/partner-networks/";
 			}
 		?>
