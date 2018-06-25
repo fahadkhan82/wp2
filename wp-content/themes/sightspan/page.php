@@ -522,73 +522,74 @@ get_sidebar('topbanner');
     <article class="pageContent" itemprop="mainContentOfPage">
       <div class="contact-us">
         <h1 class="big-heading-block big-heading-block--lg-padding strong"><?php echo get_the_title();?></h1>
-        <div class="row stackable-row">
-          <div class="col-sm-3">
-            <div class="stack-nav">
-              <?php 
+ <div class="row stackable-row">
+        <div class="col-sm-3">
+          <div class="stack-nav">
+            <?php 
 			$categories	=	get_categories(array('hide_empty' => 0, 'orderby'=>'id','order'=>'asc', 'child_of' => 2, 'depth' => 0, 'show_count' => 0, 'parent' => '2'));
 			$i=0;
 			foreach($categories as $category){
             if($i==0){
             	$active	=	"active";
-                $i = 1;
             }else{
             	$active	=	"";
             }
-            ?>
-              <a class="btn0 btn0-link <?php #echo $active; ?>" href="<?php echo get_site_url(); ?>/industries/">
-              <button class="btn btn-stack"><?php echo $category->name;?></button>
-              </a>
-              <?php } ?>
-            </div>
-          </div>
-          <!-- Industries -->
-          <div class="col-md-9 stack-nav-content active">
-            <button class="btn btn-stack stack-nav-inset"> Industries </button>
-            <div class="content-container font--base">
-              <div class="list--media-desc list--media-desc--sm-stack clearfix">
-                <div class="header-block"> </div>
-                <div class="row list--sm-flex-wrap">
-                  <?php 
-			$categories	=	get_categories(array('hide_empty' => 0, 'orderby'=>'id','order'=>'asc', 'child_of' => 2, 'depth' => 0, 'show_count' => 0, 'parent' => '2'));
-			foreach($categories as $category){
-            ?>
-                  <div class="col-sm-4 list--media-desc__col list--media-desc__col--sm-stacked">
-                    <div class="list--media-desc__item"> <img class="img-responsive" src="<?php echo z_taxonomy_image_url($category->term_id); ?>" /><a class="link--btn-next strong list--media-desc__link" href="<?php echo get_site_url(); ?>/<?php echo $link;?>/"> <?php echo $category->name;?> </a> </div>
-                  </div>
-                  <?php } ?>
-                </div>
-              </div>
-            </div>
-          </div>
-		
-          <?php for($l=3;$l<11;$l++){
-			
-           if($l==3){
-				$link	=	get_site_url()."/unarmed-armed/";
-			}elseif($l==4){
-				$link	=	get_site_url()."/industrial-physical-security/";
-			}elseif($l==5){
-				$link	=	get_site_url()."/autonomous-website/";
-			}		
-		  
-		  ?>
-          <!-- Analytics -->
-          <div class="col-md-9 stack-nav-content">
-            <?php $single_cat	=	get_category($l);?>
-            <button class="btn btn-stack stack-nav-inset"> <?php echo $single_cat->name;?> </button>
-            <div class="content-container font--base">
-              <div class="list--media-desc clearfix">
-                <div class="header-block">
-                  <div class="header-block__hero" style="background: url(<?php echo z_taxonomy_image_url($single_cat->term_id); ?>) center no-repeat; height: 350px;width: 850px;"> </div>
-                  <h2 class="header-block__heading strong"> <?php echo $single_cat->category_description;?> </h2>
-                </div>
-				
-                <a class="link--btn-next header-block__link" href="<?php echo $link;?>"> Learn More </a> </div>
-            </div>
-          </div>
-          <?php } ?>
+			$i = $i+1;
+            if($i==2){
+				$link	=	get_site_url()."/aml-ctf/";
+			}elseif($i==3){
+				$link	=	get_site_url()."/compliance/";
+			}elseif($i==4){
+				$link	=	get_site_url()."/psanctions/";
+			}elseif($i==5){
+				$link	=	get_site_url()."/security/";
+			}elseif($i==6){
+				$link	=	get_site_url()."/ptraining/";
+			}elseif($i==7){
+				$link	=	get_site_url()."/ptechnology/";
+			}elseif($i==8){
+				$link	=	get_site_url()."/ssi/";
+			}
+			?>
+            
+            <a class="btn0 btn0-link <?php #echo $active; ?>" href="<?php echo $link; ?>">
+            <button class="btn btn-stack"><?php echo $category->name;?></button>
+            </a>
+            <?php } ?> </div>
         </div>
+        
+        <?php for($l=4;$l<11;$l++){
+            if($l==4){
+				$link	=	get_site_url()."/aml-ctf/";
+			}elseif($l==5){
+				$link	=	get_site_url()."/compliance/";
+			}elseif($l==6){
+				$link	=	get_site_url()."/psanctions/";
+			}elseif($l==7){
+				$link	=	get_site_url()."/security/";
+			}elseif($l==8){
+				$link	=	get_site_url()."/ptraining/";
+			}elseif($l==9){
+				$link	=	get_site_url()."/ptechnology/";
+			}elseif($l==10){
+				$link	=	get_site_url()."/ssi/";
+			}
+		?>
+        <!-- Analytics -->
+        <div class="col-md-9 stack-nav-content">
+          <?php $single_cat	=	get_category($l);?>
+          <button class="btn btn-stack stack-nav-inset"> <?php echo $single_cat->name;?> </button>
+          <div class="content-container font--base">
+            <div class="list--media-desc clearfix">
+              <div class="header-block">
+                <div class="header-block__hero" style="background: url(<?php echo z_taxonomy_image_url($single_cat->term_id); ?>) center no-repeat; height: 350px;width: 850px;"> </div>
+                <h2 class="header-block__heading strong"> <?php echo $single_cat->category_description;?> </h2>
+              </div>
+              <a class="link--btn-next header-block__link" href="<?php echo $link;?>"> Learn More </a> </div>
+          </div>
+        </div>
+        <?php } ?>
+      </div>
         <?php /*
 		#TO SHOW THE PAGE CONTENTS
     while ( have_posts() ) : the_post(); ?>
