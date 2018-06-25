@@ -62,10 +62,8 @@
         </div>
         <!-- Industries -->
         
-        <?php for($l=18;$l<37;$l++){
-			if($l==18){
-				$link	=	get_site_url()."/company-profile/";
-			}elseif($l==20){
+        <?php for($l=20;$l<37;$l++){
+			if($l==20){
 				$link	=	get_site_url()."/brochures/";
 			}elseif($l==23){
 				$link	=	get_site_url()."/pcareers/";
