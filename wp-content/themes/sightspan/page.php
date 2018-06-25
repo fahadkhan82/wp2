@@ -561,7 +561,18 @@ get_sidebar('topbanner');
               </div>
             </div>
           </div>
-          <?php for($l=4;$l<11;$l++){?>
+		
+          <?php for($l=4;$l<11;$l++){
+			
+           if($l==4){
+				$link	=	get_site_url()."/unarmed-armed/";
+			}elseif($l==5){
+				$link	=	get_site_url()."/industrial-physical-security/";
+			}elseif($l==6){
+				$link	=	get_site_url()."/autonomous-website/";
+			}		
+		  
+		  ?>
           <!-- Analytics -->
           <div class="col-md-9 stack-nav-content">
             <?php $single_cat	=	get_category($l);?>
@@ -572,7 +583,8 @@ get_sidebar('topbanner');
                   <div class="header-block__hero" style="background: url(<?php echo z_taxonomy_image_url($single_cat->term_id); ?>) center no-repeat; height: 350px;width: 850px;"> </div>
                   <h2 class="header-block__heading strong"> <?php echo $single_cat->category_description;?> </h2>
                 </div>
-                <a class="link--btn-next header-block__link" href="aml.html"> Learn More </a> </div>
+				
+                <a class="link--btn-next header-block__link" href="<?php echo $link;?>"> Learn More </a> </div>
             </div>
           </div>
           <?php } ?>
