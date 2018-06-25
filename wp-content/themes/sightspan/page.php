@@ -554,7 +554,7 @@ get_sidebar('topbanner');
 			foreach($categories as $category){
             ?>
                   <div class="col-sm-4 list--media-desc__col list--media-desc__col--sm-stacked">
-                    <div class="list--media-desc__item"> <img class="img-responsive" src="<?php echo z_taxonomy_image_url($category->term_id); ?>" /><a class="link--btn-next strong list--media-desc__link" href="<?php echo get_site_url(); ?>/industries/"> <?php echo $category->name;?> </a> </div>
+                    <div class="list--media-desc__item"> <img class="img-responsive" src="<?php echo z_taxonomy_image_url($category->term_id); ?>" /><a class="link--btn-next strong list--media-desc__link" href="<?php echo get_site_url(); ?>/<?php echo $link;?>/"> <?php echo $category->name;?> </a> </div>
                   </div>
                   <?php } ?>
                 </div>
