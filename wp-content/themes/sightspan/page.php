@@ -62,14 +62,16 @@
         </div>
         <!-- Industries -->
         
-        <?php for($l=20;$l<37;$l++){
-			if($l==20){
+        <?php for($l=18;$l<37;$l++){
+			if($l==18){
+				$link	=	get_site_url()."/company-profile/";
+			}elseif($l==19){
 				$link	=	get_site_url()."/brochures/";
-			}elseif($l==23){
+			}elseif($l==20){
 				$link	=	get_site_url()."/pcareers/";
-			}elseif($l==35){
+			}elseif($l==21){
 				$link	=	get_site_url()."/pleadership/";
-			}elseif($l==36){
+			}elseif($l==22){
 				$link	=	get_site_url()."/partner-networks/";
 			}
 		?>
