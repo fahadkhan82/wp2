@@ -562,13 +562,13 @@ get_sidebar('topbanner');
             </div>
           </div>
 		
-          <?php for($l=3;$l<11;$l++){
+          <?php for($l=2;$l<11;$l++){
 			
-           if($l==3){
+           if($l==2){
 				$link	=	get_site_url()."/unarmed-armed/";
-			}elseif($l==4){
+			}elseif($l==3){
 				$link	=	get_site_url()."/industrial-physical-security/";
-			}elseif($l==5){
+			}elseif($l==4){
 				$link	=	get_site_url()."/autonomous-website/";
 			}		
 		  
