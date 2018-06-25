@@ -562,7 +562,9 @@ get_sidebar('topbanner');
             </div>
           </div>
 		
-         
+          <?php for($l=3;$l<11;$l++){
+		  
+		  ?>
           <!-- Analytics -->
           <div class="col-md-9 stack-nav-content">
             <?php $single_cat	=	get_category($l);?>
