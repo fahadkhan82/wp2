@@ -562,17 +562,7 @@ get_sidebar('topbanner');
             </div>
           </div>
 		
-          <?php for($l=3;$l<11;$l++){
-			
-           if($l==3){
-				$link	=	get_site_url()."/unarmed-armed/";
-			}elseif($l==4){
-				$link	=	get_site_url()."/industrial-physical-security/";
-			}elseif($l==5){
-				$link	=	get_site_url()."/autonomous-website/";
-			}		
-		  
-		  ?>
+         
           <!-- Analytics -->
           <div class="col-md-9 stack-nav-content">
             <?php $single_cat	=	get_category($l);?>
