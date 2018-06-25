@@ -637,8 +637,7 @@ get_sidebar('topbanner');
       <div class="Facebook_Share"> <a class="custom_share_f" href="https://www.facebook.com/SightSpan/" target="_blank"></a> </div>
       <div class="Twitter_Share"> <a class="custom_share_t" href=" https://twitter.com/sightspan" target="_blank"></a> </div>
       <div class="LinkedIn_Share"> <a class="custom_share_l" href="https://www.linkedin.com/company/sightspan-inc" target="_blank"></a> </div>
-	  <div class="Youtube_Share"><a target="_blank" href="https://www.youtube.com/channel/UCqAOSdXbz93UpCwH_YIIPhw"><i class="fa fa-2x fa-youtube-square" aria-hidden="true"></i></a></div>
-    </div>
+	  </div>
     <br>
     <article>
       <h1><?php echo get_the_title();?></h1>
