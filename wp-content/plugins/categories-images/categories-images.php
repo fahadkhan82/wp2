@@ -333,6 +333,7 @@ function z_taxonomy_image($term_id = NULL, $size = 'full', $attr = NULL, $echo =
     $taxonomy_image_url = get_option('z_taxonomy_image'.$term_id);
     if(!empty($taxonomy_image_url)) {
         $attachment_id = z_get_attachment_id_by_url($taxonomy_image_url);
+		
         if(!empty($attachment_id))
             $taxonomy_image = wp_get_attachment_image($attachment_id, $size, FALSE, $attr);
         else {

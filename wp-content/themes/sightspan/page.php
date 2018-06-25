@@ -77,7 +77,14 @@
 		?>
         <!-- Analytics -->
         
-        
+        <div class="col-md-9 stack-nav-content">
+          <?php $single_cat	=	get_category($l);?>
+          <button class="btn btn-stack stack-nav-inset"> <?php echo $single_cat->name;?> </button>
+          <div class="content-container font--base">
+            <div class="header-block"> <img class="header-block__hero img2" src="<?php echo z_taxonomy_image_url($single_cat->term_id); ?>"> </div>
+            <h1 class="header-block__heading strong"><?php echo $single_cat->category_description;?></h1>
+            <a href="<?php echo $link;?>" class="link--btn-next strong stack-nav-content__rounded-link text-uppercase">Learn More</a> </div>
+        </div>
         <?php } ?>
       </div>
     </div>
