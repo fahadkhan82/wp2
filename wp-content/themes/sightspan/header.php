@@ -284,7 +284,7 @@ $csc.autoTrack = false
             <li id="solutionsLink" class="menuitem_fullwidth"><a href="<?php echo get_site_url(); ?>/services/" class="menuitem_drop">Services</a></li>
             <!-- End Full Width Item -->
             <li id="contactLink" class="menuitem_fullwidth"><a href="<?php echo get_site_url(); ?>/products/" class="menuitem_drop">Products</a></li>
-            <li id="contactLink" class="menuitem_fullwidth"><a href="<?php echo get_site_url(); ?>/apply/" target="_blank" class="menuitem_drop">Apply</a></li>
+            <li id="contactLink" class="menuitem_fullwidth"><a href="<?php echo get_site_url(); ?>/apply/"  class="menuitem_drop">Apply</a></li>
             <!-- End Full Width Item -->
             <li id="aboutLink" class="menuitem_fullwidth"><a href="<?php echo get_site_url(); ?>/about-us/" class="menuitem_drop">About Us</a></li>
             <!-- End Full Width Item --> 
