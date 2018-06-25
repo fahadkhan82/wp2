@@ -550,7 +550,7 @@ get_sidebar('topbanner');
                 <div class="header-block"> </div>
                 <div class="row list--sm-flex-wrap">
                   <?php 
-			$categories	=	get_categories(array('hide_empty' => 0, 'orderby'=>'id','order'=>'asc', 'child_of' => 3, 'depth' => 0, 'show_count' => 0, 'parent' => '3'));
+			$categories	=	get_categories(array('hide_empty' => 0, 'orderby'=>'id','order'=>'asc', 'child_of' => 2, 'depth' => 0, 'show_count' => 0, 'parent' => '2'));
 			foreach($categories as $category){
             ?>
                   <div class="col-sm-4 list--media-desc__col list--media-desc__col--sm-stacked">
