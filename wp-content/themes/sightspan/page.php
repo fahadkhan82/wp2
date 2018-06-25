@@ -48,11 +48,11 @@
 			}elseif($i==2){
 				$link	=	get_site_url()."/brochures/";
 			}elseif($i==3){
-				$link	=	get_site_url()."/pleadership/";
-			}elseif($i==4){
-				$link	=	get_site_url()."/partner-networks/";
-			}elseif($i==5){
 				$link	=	get_site_url()."/pcareers/";
+			}elseif($i==4){
+				$link	=	get_site_url()."/pleadership";
+			}elseif($i==5){
+				$link	=	get_site_url()."/partner-networks/";
 			}
             ?>
           <a class="btn0 btn0-link <?php #echo $active; ?>" href="<?php echo $link;?>">
@@ -620,7 +620,7 @@ get_sidebar('topbanner');
 			}elseif($i==3){
 				$link	=	get_site_url()."/pcareers/";
 			}elseif($i==4){
-				$link	=	get_site_url()."/pleadership/";
+				$link	=	get_site_url()."/pleadership";
 			}elseif($i==5){
 				$link	=	get_site_url()."/partner-networks/";
 			}
