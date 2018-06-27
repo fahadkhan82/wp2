@@ -29,7 +29,7 @@
                 <div class="socialStrip" id="social_bucket"> <strong class="headline">Follow Us</strong>
                   <nav class="social"> 
                     <!-- Follow Bar plugin DIV container -->
-                    <div id="gigyaFollowFooter" class="gig-followbar clearfix"> <a id="fb" href=" https://www.facebook.com/SightSpan/" title="" alt="" target="_blank" class="gig-followbar-providerButton facebook followFooterLink" data-provider="Facebook"> </a> <a id="gigyaFollowFooter_btn_twitter" href="https://twitter.com/sightspan" title="" alt="" target="_blank" class="gig-followbar-providerButton twitter followFooterLink" data-provider="Twitter"> </a> <a id="gigyaFollowFooter_btn_linkedin" href="https://www.linkedin.com/company/sightspan-inc" title="" alt="" target="_blank" class="gig-followbar-providerButton linkedin followFooterLink" data-provider="LinkedIn"> </a>  </div>
+                    <div id="gigyaFollowFooter" class="gig-followbar clearfix"> <a id="fb" href="https://www.facebook.com/SightSpan-Security-Inc-276206662835784/" title="" alt="" target="_blank" class="gig-followbar-providerButton facebook followFooterLink" data-provider="Facebook"> </a> <a id="gigyaFollowFooter_btn_twitter" href="https://twitter.com/sightspansec?lang=en" title="" alt="" target="_blank" class="gig-followbar-providerButton twitter followFooterLink" data-provider="Twitter"> </a> <a id="gigyaFollowFooter_btn_linkedin" href="https://www.linkedin.com/company/sightspan-security-inc" title="" alt="" target="_blank" class="gig-followbar-providerButton linkedin followFooterLink" data-provider="LinkedIn"> </a>  </div>
                   </nav>
                 </div>
               </section>
